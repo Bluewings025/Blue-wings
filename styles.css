@@ -1,0 +1,146 @@
+nav {
+    
+    background-color:  #101728;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ajout de cette ligne */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+
+
+.image1 {
+    width: 60%;
+    border-radius: 35px;   
+    margin-right: 150px;
+    margin-top: 40px;
+    box-shadow: -8px 8px 25px 5px #1F41BB;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+
+
+.left1 {
+    flex: 1;
+    margin-left: 30px;
+  }
+
+h2{
+    font-size: 40px;
+}
+  
+  .right2 {
+    flex: 1;
+    text-align: right;
+    margin-left: 40px;
+  }
+
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-color:  #101728;
+    font-family: Arial, sans-serif;
+}
+.left {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 1;
+    text-align: right;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Ajout de cette ligne */
+    
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 40px;
+    
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+  }
+  h1{
+    color: aliceblue;
+    margin-left: 20px;
+  }
+
+  .text{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, sans-serif;   
+  }
+
+  .logo{
+    width: 35px;
+  }
+.pubs .liste .pub button:hover{
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: #1263dc;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+a:hover{
+    color: yellow;
+    
+}
+
+button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #098ee0;
+    color: aliceblue;
+    border: none;
+}
+button:hover{
+    background-color: #57b2eb;
+}
+
+.mail{
+    width: 20px;
+    margin-right: 5px;
+}
+.contact{
+    margin-top: 95px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+.langue{
+  color: aliceblue;
+  font-size: 20px;
+}
+.bw:hover{
+  color: aliceblue;
+}
